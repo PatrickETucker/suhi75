@@ -1,6 +1,6 @@
 ---
-title: "Values"
-image: /img/about-jumbotron.jpg
+title: "Donations"
+image: "https://placehold.co/1228x793"
 values:
   - heading: "Shade-grown coffee"
     text: >

@@ -1,8 +1,8 @@
 {{ define "main" }}
 
-{{ partial "jumbotron" (dict "imageUrl" "/img/blog-index.jpg" "title" "Latest stories") }}
+{{ partial "jumbotron" (dict "imageUrl" "/img/home-jumbotron.jpg" "title" "Donations") }}
 
-<div class="mw7 center">
+<!-- <div class="mw7 center">
   <ul id="blog-list" class="flex-ns flex-wrap mhn1-ns pa3">
       {{ range (.Paginator 4).Pages.ByPublishDate.Reverse }}
           <li class="w-50-ns ph1-ns flex">
@@ -11,6 +11,39 @@
       {{ end }}
   </ul>
   {{ partial "pagination" . }}
+</div> -->
+
+<div class="bg-off-white pv4">
+	<div class="items-center ph3 mw9 center">
+
+		<h2 class="tc f2 b lh-title mb3">Donate to SUHI '75</h2>
+
+    <div class="flex justify-around items-center center justify-center">
+      <div>
+        <h3 class="tc f3 b lh-title mb1 primary">Venmo</h3>
+        <img src="https://placehold.co/400" alt="Venmo QR Code" srcset="">
+      </div>
+
+      <div>
+        <h3 class="tc f3 b lh-title mb1 primary">Zelle</h3>
+        <img src="https://placehold.co/400" alt="Zelle QR Code" srcset="">
+      </div>
+
+    </div>
+
+		<!-- <div class="tc w-100 flex-ns mhn1-ns flex-column mb3 items-center">
+			{{ range first 4 (where .Data.Pages "Type" "post") }}
+				<div class="ph1-ns w-90-ns w-70-l ">
+					{{ .Render "li" }}
+				</div>
+			{{ end }}
+		</div> -->
+
+		<!-- <div class="tc">
+			<a href="/post" class="btn raise">Past Events</a>
+		</div> -->
+
+	</div>
 </div>
 
 {{end}}
