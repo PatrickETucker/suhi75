@@ -1,6 +1,6 @@
 ---
 title: Event Example Trivia Night
-date: 2016-12-17T15:04:10.000Z
+date: 2026-12-17T15:04:10.000Z
 description: This is a previous fundraising event
 image: trivia-night.jpeg
 ---

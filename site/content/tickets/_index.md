@@ -1,5 +1,5 @@
 ---
-title: "Donations"
+title: "Purchase Tickets"
 image: "https://placehold.co/1228x793"
 values:
   - heading: "Shade-grown coffee"
