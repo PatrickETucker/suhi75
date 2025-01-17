@@ -2,19 +2,9 @@
 
 	<div class="mw7 center pt3">
 
-		<!-- <div class="measure-narrow center mb4">
+		<div class="flex flex-column flex-row-m items-center justify-between">
 
-			<img src="/img/logo.png" alt="SUHI logo" class="db w4 center mb4 br0">
-			<p class="f3 lh-title light-gray b tc mb2">{{ .Site.Data.footer.title }}</p>
-			<p>{{ .Site.Data.footer.blurb }}</p>
-
-			{{ partial "newsletter-form" . }}
-
-		</div> -->
-
-		<div class="flex-ns justify-between">
-
-			<div>
+			<div class="order-1-m">
 				<h3 class="f4 b lh-title mb1 primary">SUHI '75</h3>
 				<ul class="mb3">
 					<li><a href="/" class="link">Home</a></li>
@@ -25,16 +15,33 @@
 				</ul>
 			</div>
 
-			<img src="/img/logo.png" alt="SUHI logo" class="db w4 center mb4 br0">
-
-			<div>
+			<div class="order-3-m">
 				<h3 class="f4 b lh-title mb2 primary">Social media</h3>
 				<ul class="mhn2">
-					{{ partial "social-icon" (dict "link" "#" "svg" "icons-facebook" "alt" "SUHI '75 on Facebook") }}
+					<li class="dib ph2 raise">
+  						<a href="https://www.facebook.com/profile.php?id=61571324175846" class="link bg-white black db relative br-100 pa2">
+							<svg width="24px" height="24px" class="db" aria-labelledby="alt-icons-facebook-2">
+								<title id="alt-icons-facebook-2">SUHI '75 on Facebook</title>	
+								<svg enable-background="new 0 0 32 32" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g id="Flat_copy"><g><g><path d="M16 31.625C7.384 31.625.375 24.615.375 16 .375 7.384 7.384.375 16 .375 24.615.375 31.625 7.384 31.625 16c0 8.615-7.01 15.625-15.625 15.625z" fill="#fff"></path><path d="M16 .75C24.409.75 31.25 7.591 31.25 16S24.409 31.25 16 31.25.75 24.409.75 16 7.591.75 16 .75M16 0C7.163.0.0 7.163.0 16c0 8.836 7.163 16 16 16s16-7.164 16-16C32 7.163 24.837.0 16 0z" fill="#e5e5e5"></path></g></g><path d="M13.69 24.903h3.679v-8.904h2.454l.325-3.068h-2.779l.004-1.536c0-.8.076-1.229 1.224-1.229h1.534V7.097h-2.455c-2.949.0-3.986 1.489-3.986 3.992v1.842h-1.838V16h1.838v8.903z" fill="#333"></path></g></svg>
+							</svg>
+						</a>
+					</li>
+
+					<li class="dib ph2 raise">
+						<a href="mailto:suhi75reunion@gmail.com" class="link bg-white black db relative br-100 pa2">
+							<svg width="24px" height="24px" class="db" aria-labelledby="alt-icons-email-2">
+								<title id="alt-icons-email-2">Email SUHI '75 at suhi75reunion@gmail.com</title>
+								<svg enable-background="new 0 0 32 32" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g id="Style_2"><g><g><path d="M16 31.625C7.384 31.625.375 24.615.375 16 .375 7.384 7.384.375 16 .375 24.615.375 31.625 7.384 31.625 16c0 8.615-7.01 15.625-15.625 15.625z" fill="#fff"></path><path d="M16 .75C24.409.75 31.25 7.591 31.25 16S24.409 31.25 16 31.25.75 24.409.75 16 7.591.75 16 .75M16 0C7.163.0.0 7.163.0 16c0 8.836 7.163 16 16 16s16-7.164 16-16C32 7.163 24.837.0 16 0z" fill="#e5e5e5"></path></g></g><g><polygon fill="#333" points="6.518,21.815 11.707,15.291 6.518,12.119"></polygon><polygon fill="#333" points="19.5,15.746 15.989,17.908 12.472,15.758 7.11,22.5 24.867,22.5"></polygon><polygon fill="#333" points="15.988,16.864 25.482,11.017 25.482,9.5 6.518,9.5 6.518,11.076"></polygon><polygon fill="#333" points="20.263,15.276 25.482,21.843 25.482,12.062"></polygon></g></g></svg>
+							</svg>
+						</a>
+					</li>
 				</ul>
 			</div>
-
+			<img src="/img/logo.png" alt="SUHI logo" class="db w4 center mb4 br0 order-2-m">
 		</div>
+
+		
+
 	</div>
 
 </footer>

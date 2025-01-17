@@ -86,3 +86,18 @@
 
 /* Uncomment out the line below to help debug layout issues */
 /*@use './imports/_debug';*/
+
+th {
+    font-weight: 700;
+    color: var(--primary);
+  }
+
+td {
+    text-align: left;
+}
+
+table {
+    border-collapse: seperate; 
+    border-spacing: 0 5px;
+}
+
