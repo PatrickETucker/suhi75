@@ -101,3 +101,12 @@ table {
     border-spacing: 0 5px;
 }
 
+ol {
+    list-style: unset;
+    margin: var(--spacing-small);
+}
+
+ol > li {
+    margin-left: var(--spacing-large);
+    margin-right: var(--spacing-large);
+}
